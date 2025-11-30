@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width\, initial-scale=1.0">
+    <title>Informática Para Gestão/Cadasro</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<header>
+<center>
+    <img src="logo UCC.jpg" alt="logotipo da universidade cuito cuanavale">
+    <br>
+   <STRONG><p>UNIVERSIDADE CUITO CUANAVALE</p></STRONG> 
+</center>
+ <div id="V">
+    <button> <a href="index.html">Voltar a página inicial</a> </button>
+   </div>
+</header>
+<body class="fcadastro">
+<h1>
+    <hr>
+    <center>
+    Cadastro
+</h1>
+<div id="box">
+    <form action="" id="action">
+        <fieldset>
+            <legend><b>Dados Pessoais</b></legend>
+            <br>
+            <div class="ip">
+                <label for="nome" class="label"><b>Nome Completo</b></label>
+                <input type="text" name="nome" id="nome" required>
+                <br><br>
+                <label for="email"><b>Email</b></label> 
+                <input type="email" name="email" id="email" required>
+                
+                <br><br>
+                <label for="tel"><b>Telefone</b></label>
+                <input type="tel" name="tel" id="tel" required>
+                
+            </div>
+
+            <p>Sexo</p>
+            <label for="Masculino"><b>Masculino</b></label>
+            <input type="radio" name="genero" id="Masculino" value="Masculino" required>
+            <br>
+            <label for="femenino"><b>Femenino</b></label>
+            <input type="radio" name="femenino" id="femenino" value="Femenino" required>
+            <br>
+            <label for="outro"><b>Outro</b></label>
+            <input type="radio" name="outro" id="outro" value="outro" required>
+            
+            <br>
+
+            <div class="nasc">
+            <label for="data"><b>Data de nascimento:</b></label>
+            <input type="date" name="Data de Nascimento" id="data" required>
+            </div>
+            <br>
+            <div id="endereco">
+                <label for="estado"><b>Estado</b></label>
+                <input type="text" name="estado" id="estado">
+                
+                <br><br>
+                 <label for="estado"><b>Cidade</b></label>
+                <input type="text" name="cidade" id="cidade">
+               
+                <br><br>
+                <label for="estado"><b>Morada</b></label>
+                <input type="text" name="morada" id="morada">
+                
+            </div>
+            <br>
+            <div class="password">
+                    <label for="pss">password</label>
+                    <input type="password" value="Palavra Pass">
+                </div>
+
+                
+            <br><br>
+            <input type="submit" value="Enviar" id="Enviar">
+        </fieldset>
+        
+    </form>
+
+</div>
+</center>
+</body>
+</html>
